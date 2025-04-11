@@ -1,0 +1,184 @@
+%   Copyright (c)  2025  M. Haghverdi
+%   Permission is granted to copy, distribute and/or modify this document
+%    under the terms of the GNU Free Documentation License, Version 1.3
+%    or any later version published by the Free Software Foundation;
+%    with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
+%    A copy of the license is included in the section entitled "GNU
+%    Free Documentation License".
+
+\documentclass{article}
+
+\usepackage[paper=a4paper, top=2cm, bottom=4cm, right=4.3cm, left=4.3cm]{geometry}
+
+\usepackage{enumitem,amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+
+\usepackage{adjustbox}
+\usepackage{graphicx}
+\usepackage{xepersian}
+\settextfont{Yas}  % Put your desired font here
+
+\renewcommand{\arraystretch}{1.23}  % increase if you want more white space in tables
+
+\begin{document}
+\begin{center}
+{\small به نام خدا}
+
+\vspace{5mm}
+\includegraphics[scale=0.3]{images/logo}
+
+{\small دانشکده‌ی مهندسی کامپیوتر}
+\vspace{5mm}
+
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{|p{\textwidth}|}
+\hline
+عنوان پروژه (فارسی):‌
+% Put Farsi name here
+\\
+عنوان پروژه (انگلیسی):
+\begin{latin}
+% Put English name here
+\end{latin}
+\\ \hline
+\end{tabular}
+\end{adjustbox}
+
+\vspace{2mm}
+
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{|c|c|c|c|c|p{2cm}|}
+\cline{2-6}
+\multicolumn{1}{c|}{} &
+
+نام دانشجو & 
+شماره‌ دانشجویی &
+بسته اصلی و فرعی &
+تعداد واحد گذرانده &
+امضا \\
+\hline
+1 &
+% Name
+&
+% Student numner
+&
+% Your packages
+&
+% Your number of courses taken
+&
+\\
+\hline
+% Second student if present
+% 2 &
+% Name
+% &
+% Student numner
+% &
+% Your packages
+% &
+% Your number of courses taken
+% &
+% \\
+% \hline
+\end{tabular}
+\end{adjustbox}
+
+\vspace{2mm}
+
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{|p{0.6\textwidth}|p{0.378\textwidth}|}
+\hline
+استاد راهنمای پروژه: % His/Her name here
+&
+\\
+\cline{1-1}
+نظر استاد راهنما:  % nothing needed in the document
+\vspace{3cm}
+& 
+\vspace{2.6cm}
+امضا استاد راهنما و تاریخ: % nothing needed in the document
+\\
+\hline
+\end{tabular}
+\end{adjustbox}
+
+\vspace{3mm}
+
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{|p{\textwidth}|}
+\hline
+این پیشنهاد در تاریخ
+\hspace{2cm} % nothing needed in the document
+در شورای گروه
+\hspace{2cm} % nothing needed in the document
+مطرح گردید و
+% nothing needed in the document
+\begin{todolist}
+\item 
+بدون  تغییر مورد تصویب قرار گرفت.
+
+\item
+با شرایط زیر مورد تصویب قرار گرفت.
+
+\item
+به دلایل زیر مورد تصویب قرار نگرفت.
+\end{todolist}
+
+\begin{center}
+\begin{tabular}{|p{0.9\textwidth}|}
+\hline
+\vspace{3cm} \\ % nothing needed in the document
+\hline
+\end{tabular}
+\end{center}
+
+نام عضو هیئت علمی بررسی کننده: 
+\hspace{4cm}
+تاریخ و امضا: % nothing needed in the document
+\\
+\hline
+\end{tabular}
+\end{adjustbox}
+\end{center}
+
+\newpage
+\begin{enumerate}
+\item 
+موضوع پروژه و اهداف آن را به اختصار شرح دهید.
+
+% Keep one empty line
+% {Explain here}
+
+\item 
+روش انجام پروژه
+
+% Keep one empty line
+% {Explain here}
+
+\item 
+آیا این پروژه و یا مشابه آن قبلا انجام شده است؟ اگر بله تفاوت‌های این پروژه با پروژه‌های قبلی را (در صورت وجود) ذکر کنید.
+
+% Keep one empty line
+% {Explain here}
+
+\item 
+طرح تجاری خود در رابطه با تجاری‌سازی و به سودرسانی پروژه‌ی انجام شده را (در صورت وجود) توضیح دهید.
+
+% Keep one empty line
+% {Explain here}
+
+\item 
+امکانات موردنیاز جهت انجام پروژه را ذکر کنید.
+
+% Keep one empty line
+% {Explain here}
+
+\item 
+مهم‌ترین منابع و مراجع لازم برای انجام پروژه پیشنهادی را نام ببرید.
+
+% Keep one empty line
+% {Explain here}
+
+\end{enumerate}
+\end{document}
