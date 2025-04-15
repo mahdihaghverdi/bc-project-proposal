@@ -1,4 +1,4 @@
-%   Copyright (c)  2025  M. Haghverdi
+%   Copyright (c)  2025  Mahdi Haghverdi
 %   Permission is granted to copy, distribute and/or modify this document
 %    under the terms of the GNU Free Documentation License, Version 1.3
 %    or any later version published by the Free Software Foundation;
@@ -6,9 +6,21 @@
 %    A copy of the license is included in the section entitled "GNU
 %    Free Documentation License".
 
-\documentclass{article}
+\documentclass[dvipsnames, svgnames, x11names]{article}
 
 \usepackage[paper=a4paper, top=2cm, bottom=4cm, right=4.3cm, left=4.3cm]{geometry}
+
+% URLs and hyperlinks ------------------------------
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=DarkBlue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+\usepackage{xurl}
+%---------------------------------------------------
 
 \usepackage{enumitem,amssymb}
 \newlist{todolist}{itemize}{2}
@@ -179,6 +191,17 @@
 
 % Keep one empty line
 % {Explain here}
+% \url{www.google.com}
+% \href{www.google.com}{this is an href}
+
+% For citation use:
+% \cite{boneh2004short}
 
 \end{enumerate}
+
+%\bibliographystyle{ieeetr-fa}
+%\bibliography{ref.bib}
+
+% Use TexStudio
+% First F5, then F8 and then F5 to see the results including the biblographies
 \end{document}
